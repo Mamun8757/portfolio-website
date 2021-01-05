@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.color{
+    color: orange;
+}
+h3{
+    font-size: 28px;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.half-space{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.half-space img{
+    margin-left: 25%;
+    border: 3px solid #ee8936;
+    border-radius: 50%;
+    height: 350px;
+    width: 325px;
+
+}
+.intro{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.link-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    background: linear-gradient(180deg, lightsalmon, tomato);
+    border: 3px solid orange;
+    border-radius: 8px;
+    padding: 8px 8px;
+    display: block;
+    width: 20%;
+    margin-top: 5px;
+}
+.top-area{
+    background: url(images/top-banner.png);
+    background-attachment: fixed;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #34DBD8;
+}
+.link-button{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    background: linear-gradient(180deg, lightsalmon, tomato);
+}
+.dream-area{
+    background: url(images/dream-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+
+}
+.font-change{
+    font-size: 36px;
+}
+.exp-font{
+    font-size: 40px;
+}
+.box-shadow{
+    height: 350px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 20px 30px;
+    
+
+}
+#exp-left{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#exp-right{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.exp-section{
+    height: 500px;
+    background: url(images/exp-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
